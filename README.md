@@ -51,32 +51,19 @@ This system is ideal for smart cities, enabling smarter and more sustainable urb
 
 ---
 
-### Installation and Usage Instructions
-1. **Setup Hardware**: Connect the ESP32 microcontroller with sensors and power supplies as per the circuit diagram.
-2. **Upload Firmware**: Flash the ESP32 with the provided firmware code.
-3. **Database Configuration**: Set up the centralized database for logging maintenance and operational data.
-4. **Deploy**: Install the system on streetlights and monitor the operation via the Wi-Fi-enabled dashboard.
+### Deployment
 
-For more details, refer to the [Documentation](#).
+The system is deployed and hosted on Firebase. Access the live application using the link below:  
 
----
+**[Website Link](https://street-light-iot-76576.web.app/)**
 
-### Contributions
-Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+Follow these steps to deploy the system using Firebase:
 
----
-
-### License
-This project is licensed under the [MIT License](LICENSE).
-
-
-
-Website Link : https://street-light-iot-76576.web.app/
-
-npm install -g firebase-tools
-
-firebase init
-
-firebase login
-
-firebase deploy
+1. **Install Firebase CLI**:
+   npm install -g firebase-tools
+2. **Initialize Firebase:**:
+   firebase init
+4. **Login to Firebase:**:
+   firebase login
+6. **Deploy the Application:**:
+   firebase deploy
